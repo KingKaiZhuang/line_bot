@@ -10,6 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
+LINE_CHANNEL_ACCESS_TOKEN = 'cIIM+RK3f2zhhsseIoJDli0OhHzhj6gtAIqNBTuXuN/DuotGdeItciHjadObnm7/BU6KQ4Ny/hKe74zs75vqrxDxvH+FnJNO8WtZLnz5AFJs4I948Kq1pRyBSuvL5qrqC1sM+bL0fqiGsmnOWp39lQdB04t89/1O/w1cDnyilFU='
+ 
+LINE_CHANNEL_SECRET = '84441f5340ae07a330de6e6169c68932'
+
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -26,9 +30,8 @@ SECRET_KEY = 'co7bf$713h9vag$r2mnd&s%7hhk@2_(3@wkbu!g53^c8=41tpp'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://d339-111-255-109-113.ngrok-free.app',
-    'd339-111-255-109-113.ngrok-free.app',
-    '127.0.0.1'
+    "1487-111-255-143-184.ngrok-free.app",
+    'https://1487-111-255-143-184.ngrok-free.app'
 ]
 
 
@@ -122,10 +125,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-
-LINE_CHANNEL_ACCESS_TOKEN = 'cIIM+RK3f2zhhsseIoJDli0OhHzhj6gtAIqNBTuXuN/DuotGdeItciHjadObnm7/BU6KQ4Ny/hKe74zs75vqrxDxvH+FnJNO8WtZLnz5AFJs4I948Kq1pRyBSuvL5qrqC1sM+bL0fqiGsmnOWp39lQdB04t89/1O/w1cDnyilFU='
- 
-LINE_CHANNEL_SECRET = '84441f5340ae07a330de6e6169c68932'
 
 # Application definition
 INSTALLED_APPS = [
